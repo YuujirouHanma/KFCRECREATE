@@ -1,0 +1,216 @@
+/* Reset default styles */
+body, h1, h2, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #fff;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 15px 30px;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #000000;
+    font-weight: bold;
+}
+
+/* Hero Section */
+#hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-image: url('hero-banner.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+#hero img {
+    width: 1500px;
+    height: 499.2px;
+}
+
+.btn {
+    background-color: #d71a28;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+}
+#video {
+    text-align: center;
+    padding: 20px;
+}
+.h2{
+    padding-inline-start: 10px;
+}
+.content-container {
+    display: flex;  
+    align-items: flex-start; 
+    gap: 20px;  
+    justify-content: center;
+}
+
+.video-container {
+    flex: 1;  
+    display: flex;
+    justify-content: center;
+}
+
+.video-container iframe {
+    width: 450px;
+    height: 315px;
+    padding-left: 300px;
+    -ms-layout-grid: 0;
+}
+
+.news-container {
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
+}
+
+.news-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    width: 400px;
+}
+
+.news-item img {
+    width: 80px; 
+    height: 60px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+#deals {
+    text-align: center;
+    padding: 40px;
+    background-color: #fff;
+}
+
+.deals-container {
+    display: flex; /* Mengatur agar sejajar */
+    justify-content: center; /* Agar berada di tengah */
+    gap: 20px; /* Jarak antar box */
+    flex-wrap: wrap; /* Responsif: jika layar kecil, turun ke bawah */
+}
+
+.deal-box {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 200px; /* Ukuran kotak */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.deal-box img {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+.deal-box h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.deal-box p {
+    font-size: 14px;
+    color: #666;
+}
+
+.deal-box button {
+    background-color: #d71a28;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.deal-box button:hover {
+    background-color: #b0121f;
+}
+/* Menu Section */
+#menu {
+    text-align: center;
+    padding: 40px;
+    background-color: #f8f8f8;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.menu-item {
+    text-align: center;
+}
+
+.menu-item img {
+    width: 150px;
+    border-radius: 10px;
+}
+
+.menu-item p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Promo Section */
+#promo {
+    text-align: center;
+    padding: 30px;
+    background-color: #fff;
+    font-size: 1.2rem;
+}
+
+/* Contact Section */
+#contact {
+    text-align: center;
+    padding: 40px;
+    background-color: #d71a28;
+    color: #fff;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #000;
+    color: #fff;
+    font-size: 0.9rem;
+}
